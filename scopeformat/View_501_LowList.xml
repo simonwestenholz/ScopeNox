@@ -218,7 +218,7 @@
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="label" id="9907">
-					<label>$VAR[AudioChannelCustom]</label>
+					<label>$VAR[AspectRatio]</label>
 					<visible>false</visible>
 				</control>
 				<control type="image">
@@ -226,7 +226,7 @@
 					<colordiffuse>grey2</colordiffuse>
 					<include>MediaFlagVars</include>
 					<texture>flags/aspectratio/$VAR[AspectRatio].png</texture>
-					<visible>!IsEmpty(Control.GetLabel(9901))</visible>
+					<visible>!IsEmpty(Control.GetLabel(9907))</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="image">
