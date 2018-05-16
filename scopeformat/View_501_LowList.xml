@@ -225,8 +225,8 @@
 					<left>339</left>
 					<colordiffuse>grey2</colordiffuse>
 					<include>MediaFlagVars</include>
-					<texture>flags/channels/$VAR[AudioChannelCustom].png</texture>
-					<visible>!IsEmpty(Control.GetLabel(9907))</visible>
+					<texture>flags/aspectratio/$VAR[AspectRatio].png</texture>
+					<visible>!IsEmpty(Control.GetLabel(9901))</visible>
 					<include>VisibleFadeEffect</include>
 				</control>
 				<control type="image">
